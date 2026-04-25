@@ -8,7 +8,7 @@ import {
 } from "../components/organisms/itemTypeForm";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "アイテムタイプ編集 / 珈琲・俺POS" }];
+  return [{ title: "アイテムタイプ編集 / POS" }];
 };
 
 export default function EditItemTypePage() {

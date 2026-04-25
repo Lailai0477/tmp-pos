@@ -12,7 +12,7 @@ import { ItemForm } from "../components/organisms/itemForm";
 import { buildUpdatedItemEntity } from "./items/actions/update";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "アイテム編集 / 珈琲・俺POS" }];
+  return [{ title: "アイテム編集 / POS" }];
 };
 
 export default function EditItemPage() {

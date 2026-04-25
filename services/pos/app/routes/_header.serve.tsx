@@ -7,7 +7,7 @@ import { useOrdersWSContext } from "./context/OrdersWSContext";
 export const BASE_CLIENT_URL = "https://cafeore-2024.pages.dev";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "提供 / 珈琲・俺POS" }];
+  return [{ title: "提供 / POS" }];
 };
 
 export default function Serve() {

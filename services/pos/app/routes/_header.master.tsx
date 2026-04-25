@@ -23,7 +23,7 @@ import { cn } from "~/lib/utils";
 import { useOrdersWSContext } from "./context/OrdersWSContext";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "マスター / 珈琲・俺POS" }];
+  return [{ title: "マスター / POS" }];
 };
 
 export default function FielsOfMaster() {

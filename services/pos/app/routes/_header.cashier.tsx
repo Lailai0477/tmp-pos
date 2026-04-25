@@ -16,7 +16,7 @@ import { CashierV2 } from "~/components/pages/CashierV2";
 import { useOrdersWSContext } from "./context/OrdersWSContext";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "レジ / 珈琲・俺POS" }];
+  return [{ title: "レジ / POS" }];
 };
 
 // コンポーネントではデータの取得と更新のみを行う

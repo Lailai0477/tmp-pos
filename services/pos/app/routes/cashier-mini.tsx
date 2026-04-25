@@ -12,7 +12,7 @@ import { useOrderStat } from "~/components/functional/useOrderStat";
 import { cn } from "~/lib/utils";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "珈琲・俺 1号店" }];
+  return [{ title: "レジ客用画面" }];
 };
 
 export default function CasherMini() {

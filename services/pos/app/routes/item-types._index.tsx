@@ -14,7 +14,7 @@ import {
 import { cn } from "~/lib/utils";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "アイテムタイプ一覧 / 珈琲・俺POS" }];
+  return [{ title: "アイテムタイプ一覧 / POS" }];
 };
 
 export default function ItemTypesPage() {
