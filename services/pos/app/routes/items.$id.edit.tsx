@@ -5,7 +5,7 @@ import {
   type WithId,
   itemRepository,
   itemTypeRepository,
-} from "@cafeore/common";
+} from "@tmp/common";
 import { useEffect, useState } from "react";
 import { type MetaFunction, useNavigate, useParams } from "react-router";
 import { ItemForm } from "../components/organisms/itemForm";

@@ -1,4 +1,4 @@
-import { type Order, orderRepository } from "@cafeore/common";
+import { type Order, orderRepository } from "@tmp/common";
 import { Button } from "../ui/button";
 
 export async function getOrders() {

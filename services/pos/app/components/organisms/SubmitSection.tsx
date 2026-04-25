@@ -1,5 +1,5 @@
-import type { OrderEntity } from "@cafeore/common";
-import { shouldSplitOrder, useItemMaster } from "@cafeore/common";
+import type { OrderEntity } from "@tmp/common";
+import { shouldSplitOrder, useItemMaster } from "@tmp/common";
 import { useEffect, useMemo, useRef } from "react";
 import { Button } from "../ui/button";
 

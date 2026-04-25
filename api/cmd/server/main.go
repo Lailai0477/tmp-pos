@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"cafeore-pos/api/internal/handlers"
-	"cafeore-pos/api/internal/models"
+	"tmp-pos/api/internal/handlers"
+	"tmp-pos/api/internal/models"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"

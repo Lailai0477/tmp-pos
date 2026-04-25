@@ -1,5 +1,5 @@
 // routes/item-types._index.tsx
-import { type ItemType, itemTypeRepository } from "@cafeore/common";
+import { type ItemType, itemTypeRepository } from "@tmp/common";
 import { useCallback, useEffect, useState } from "react";
 import { type MetaFunction, useNavigate } from "react-router";
 import { Button } from "~/components/ui/button";

@@ -1,4 +1,4 @@
-module cafeore-pos/api
+module tmp-pos/api
 
 go 1.25.5
 

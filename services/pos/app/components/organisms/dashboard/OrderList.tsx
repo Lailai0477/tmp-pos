@@ -1,4 +1,4 @@
-import type { OrderEntity, WithId } from "@cafeore/common";
+import type { OrderEntity, WithId } from "@tmp/common";
 import dayjs from "dayjs";
 import { useState } from "react";
 import { OrderInfoCard } from "~/components/molecules/OrderInfoCard";

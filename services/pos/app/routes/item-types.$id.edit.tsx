@@ -1,5 +1,5 @@
 // routes/item-types.$id.edit.tsx
-import { type ItemType, itemTypeRepository } from "@cafeore/common";
+import { type ItemType, itemTypeRepository } from "@tmp/common";
 import { useEffect, useState } from "react";
 import { type MetaFunction, useNavigate, useParams } from "react-router";
 import {

@@ -2,7 +2,7 @@ import {
   MasterStateEntity,
   documentSub,
   masterStateConverter,
-} from "@cafeore/common";
+} from "@tmp/common";
 import useSWRSubscription from "swr/subscription";
 
 /**

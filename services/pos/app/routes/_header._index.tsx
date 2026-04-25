@@ -1,4 +1,4 @@
-// import { converter, itemSchema, prodDB } from "@cafeore/common";
+// import { converter, itemSchema, prodDB } from "@tmp/common";
 import type { MetaFunction } from "react-router";
 import { DownloadButton } from "~/components/organisms/DownloadData";
 

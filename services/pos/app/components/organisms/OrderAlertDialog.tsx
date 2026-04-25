@@ -1,4 +1,4 @@
-import type { OrderEntity } from "@cafeore/common";
+import type { OrderEntity } from "@tmp/common";
 import { type ComponentPropsWithoutRef, forwardRef } from "react";
 import {
   AlertDialog,

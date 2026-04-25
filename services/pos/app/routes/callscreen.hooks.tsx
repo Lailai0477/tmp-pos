@@ -1,4 +1,4 @@
-import type { Order } from "@cafeore/common";
+import type { Order } from "@tmp/common";
 import { gsap } from "gsap";
 import { useEffect, useRef, useState } from "react";
 

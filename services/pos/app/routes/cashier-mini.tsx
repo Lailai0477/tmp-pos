@@ -2,12 +2,12 @@ import {
   cashierStateConverter,
   documentSub,
   orderConverter,
-} from "@cafeore/common";
+} from "@tmp/common";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { MetaFunction } from "react-router";
 import useSWRSubscription from "swr/subscription";
-import logoSVG from "~/assets/cafeore.svg";
-import logoMotion from "~/assets/cafeore_logo_motion.webm";
+import logoSVG from "~/assets/tmp.svg";
+import logoMotion from "~/assets/tmp_logo_motion.webm";
 import { useOrderStat } from "~/components/functional/useOrderStat";
 import { cn } from "~/lib/utils";
 

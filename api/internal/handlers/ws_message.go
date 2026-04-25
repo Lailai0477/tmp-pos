@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"cafeore-pos/api/internal/models"
+	"tmp-pos/api/internal/models"
 
 	"log"
 

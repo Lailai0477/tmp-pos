@@ -1,4 +1,4 @@
-import type { OrderEntity } from "@cafeore/common";
+import type { OrderEntity } from "@tmp/common";
 import { useMemo } from "react";
 import { Input } from "../ui/input";
 

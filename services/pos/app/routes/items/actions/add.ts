@@ -1,5 +1,5 @@
 // features/items/add.ts
-import { ItemEntity, type ItemType } from "@cafeore/common";
+import { ItemEntity, type ItemType } from "@tmp/common";
 import type { ItemFormValues } from "../../../components/organisms/itemForm";
 
 export function buildNewItemEntity(

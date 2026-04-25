@@ -1,8 +1,4 @@
-import {
-  type OrderEntity,
-  type WithId,
-  orderRepository,
-} from "@cafeore/common";
+import { type OrderEntity, type WithId, orderRepository } from "@tmp/common";
 import dayjs from "dayjs";
 import { LuHourglass } from "react-icons/lu";
 import { toast } from "sonner";

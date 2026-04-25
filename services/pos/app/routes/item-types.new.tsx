@@ -1,5 +1,5 @@
 // routes/item-types.new.tsx
-import { itemTypeRepository } from "@cafeore/common";
+import { itemTypeRepository } from "@tmp/common";
 import { useState } from "react";
 import { type MetaFunction, useNavigate } from "react-router";
 import {

@@ -1,4 +1,4 @@
-import type { OrderEntity, WithId } from "@cafeore/common";
+import type { OrderEntity, WithId } from "@tmp/common";
 import { FaCheck } from "react-icons/fa";
 import { Button } from "../ui/button";
 

@@ -9,7 +9,7 @@ import (
 	openapi_types "github.com/oapi-codegen/runtime/types"
 	"gorm.io/gorm"
 
-	"cafeore-pos/api/internal/models"
+	"tmp-pos/api/internal/models"
 )
 
 type ItemHandler struct {

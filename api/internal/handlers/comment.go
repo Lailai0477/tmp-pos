@@ -11,7 +11,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"cafeore-pos/api/internal/models"
+	"tmp-pos/api/internal/models"
 )
 
 type CommentHandler struct {

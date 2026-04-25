@@ -3,7 +3,7 @@ import {
   type OrderEntity,
   type WithId,
   orderRepository,
-} from "@cafeore/common";
+} from "@tmp/common";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useSubmit } from "react-router";
 import bellTwice from "~/assets/bell_twice.mp3";

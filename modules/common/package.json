@@ -1,5 +1,5 @@
 {
-  "name": "@cafeore/common",
+  "name": "@tmp/common",
   "private": true,
   "type": "module",
   "exports": {
