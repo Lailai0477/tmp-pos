@@ -1,6 +1,6 @@
 ("use client");
 
-import type { OrderEntity, WithId } from "@cafeore/common";
+import type { OrderEntity, WithId } from "@tmp/common";
 import dayjs from "dayjs";
 import { CartesianGrid, Line, LineChart, XAxis, YAxis } from "recharts";
 import {

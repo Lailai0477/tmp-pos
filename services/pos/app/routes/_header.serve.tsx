@@ -1,13 +1,13 @@
-import { type OrderEntity, orderRepository } from "@cafeore/common";
+import { type OrderEntity, orderRepository } from "@tmp/common";
 import type { MetaFunction } from "react-router";
 import { OrderInfoCard } from "~/components/molecules/OrderInfoCard";
 import { PastOrderSideSheet } from "~/components/molecules/PastOrderSideSheet";
 import { useOrdersWSContext } from "./context/OrdersWSContext";
 
-export const BASE_CLIENT_URL = "https://cafeore-2024.pages.dev";
+export const BASE_CLIENT_URL = "https://tmp-2024.pages.dev";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "提供 / 珈琲・俺POS" }];
+  return [{ title: "提供 / POS" }];
 };
 
 export default function Serve() {

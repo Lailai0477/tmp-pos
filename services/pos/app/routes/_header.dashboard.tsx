@@ -1,4 +1,4 @@
-import type { OrderEntity } from "@cafeore/common";
+import type { OrderEntity } from "@tmp/common";
 import { useCallback, useState } from "react";
 import type { MetaFunction } from "react-router";
 import { ItemBarChart } from "~/components/organisms/dashboard/ItemBarChart";
@@ -11,7 +11,7 @@ import { useFileUpload } from "~/lib/fileUpload";
 import { useOrdersWSContext } from "./context/OrdersWSContext";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "注文状況 / 珈琲・俺POS" }];
+  return [{ title: "注文状況 / POS" }];
 };
 
 export default function Dashboard() {

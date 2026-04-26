@@ -1,4 +1,4 @@
-import { auth } from "@cafeore/common";
+import { auth } from "@tmp/common";
 import { type User, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from "react";
 

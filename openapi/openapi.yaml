@@ -1,9 +1,9 @@
 # openapi/openapi.yaml
 openapi: 3.1.0
 info:
-  title: CafeOre POS API
+  title: POS API
   version: 1.0.0
-  description: 珈琲・俺POSシステムのAPI仕様
+  description: POSシステムのAPI仕様
 
 servers:
   - url: http://localhost:8080

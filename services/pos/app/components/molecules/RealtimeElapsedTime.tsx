@@ -1,4 +1,4 @@
-import type { OrderEntity, WithId } from "@cafeore/common";
+import type { OrderEntity, WithId } from "@tmp/common";
 import dayjs from "dayjs";
 import { cn } from "~/lib/utils";
 import { useCurrentTime } from "../functional/useCurrentTime";

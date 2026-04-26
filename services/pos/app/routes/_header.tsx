@@ -1,4 +1,4 @@
-import { login, logout } from "@cafeore/common";
+import { login, logout } from "@tmp/common";
 import { Outlet } from "react-router";
 import { useAuth } from "~/components/functional/AuthProvider";
 import { useOnlineStatus } from "~/components/functional/useOnlineStatus";

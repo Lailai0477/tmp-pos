@@ -1,9 +1,9 @@
-// import { converter, itemSchema, prodDB } from "@cafeore/common";
+// import { converter, itemSchema, prodDB } from "@tmp/common";
 import type { MetaFunction } from "react-router";
 import { DownloadButton } from "~/components/organisms/DownloadData";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "Top / 珈琲・俺POS" }];
+  return [{ title: "Top / POS" }];
 };
 
 // export const clientLoader = async () => {
@@ -23,7 +23,7 @@ export default function Index() {
 
   return (
     <div className="p-4 font-sans">
-      <h1 className="font-bold font-noto text-3xl">珈琲・俺POS</h1>
+      <h1 className="font-bold font-noto text-3xl">POS</h1>
       <ul className="mt-4 list-disc space-y-2 pl-6">
         <li>
           <a

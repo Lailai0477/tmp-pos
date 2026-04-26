@@ -1,4 +1,4 @@
-import { orderRepository } from "@cafeore/common";
+import { orderRepository } from "@tmp/common";
 import type { ClientActionFunction } from "react-router";
 
 export const deleteOrder: ClientActionFunction = async ({ request }) => {

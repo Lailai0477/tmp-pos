@@ -1,4 +1,4 @@
-import type { ItemEntity, WithId } from "@cafeore/common";
+import type { ItemEntity, WithId } from "@tmp/common";
 import { cn } from "~/lib/utils";
 import { Button } from "../ui/button";
 

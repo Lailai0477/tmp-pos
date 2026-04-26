@@ -1,4 +1,4 @@
-import type { ItemEntity, OrderEntity } from "@cafeore/common";
+import type { ItemEntity, OrderEntity } from "@tmp/common";
 import { useRawPrinter } from "./printer";
 
 export const usePrinter = () => {
@@ -95,7 +95,7 @@ export const usePrinter = () => {
 
     // 各アイテムのラベルを印刷
     for (const [idx, item] of coffees.entries()) {
-      printLogoLabel(
+      printSingleItemLabel(
         order.orderId,
         idx + 1,
         order.getCoffeeCups().length,

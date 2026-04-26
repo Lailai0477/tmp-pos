@@ -1,5 +1,5 @@
 // routes/item-types.new.tsx
-import { itemTypeRepository } from "@cafeore/common";
+import { itemTypeRepository } from "@tmp/common";
 import { useState } from "react";
 import { type MetaFunction, useNavigate } from "react-router";
 import {
@@ -8,7 +8,7 @@ import {
 } from "../components/organisms/itemTypeForm";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "アイテムタイプ作成 / 珈琲・俺POS" }];
+  return [{ title: "アイテムタイプ作成 / POS" }];
 };
 
 export default function NewItemTypePage() {

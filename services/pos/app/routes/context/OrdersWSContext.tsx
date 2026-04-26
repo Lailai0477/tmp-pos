@@ -1,4 +1,4 @@
-import { type OrderEntity, type WithId, useOrdersWS } from "@cafeore/common";
+import { type OrderEntity, type WithId, useOrdersWS } from "@tmp/common";
 // context/OrdersWSContext.tsx
 import { createContext, useContext } from "react";
 

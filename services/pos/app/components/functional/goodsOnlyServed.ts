@@ -1,4 +1,4 @@
-import type { OrderEntity } from "@cafeore/common";
+import type { OrderEntity } from "@tmp/common";
 
 export function goodsOnlyServed(order: OrderEntity): OrderEntity {
   if (order.getDrinkCups().length === 0) {

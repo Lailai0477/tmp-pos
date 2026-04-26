@@ -1,4 +1,4 @@
-import { OrderEntity, orderRepository } from "@cafeore/common";
+import { OrderEntity, orderRepository } from "@tmp/common";
 import type { ClientActionFunction } from "react-router";
 
 export const createOrder: ClientActionFunction = async () => {

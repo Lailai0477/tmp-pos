@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"cafeore-pos/api/internal/models"
+	"tmp-pos/api/internal/models"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"

@@ -1,5 +1,5 @@
-import type { ItemEntity, WithId } from "@cafeore/common";
 import { Cross2Icon, Pencil2Icon } from "@radix-ui/react-icons";
+import type { ItemEntity, WithId } from "@tmp/common";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import { cn } from "~/lib/utils";
 import { useFocusRef } from "../functional/useFocusRef";

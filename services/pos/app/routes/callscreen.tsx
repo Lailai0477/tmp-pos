@@ -17,7 +17,7 @@ import {
 import { useOrdersWSContext } from "./context/OrdersWSContext";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "呼び出し画面 / 珈琲・俺POS" }];
+  return [{ title: "呼び出し画面 / POS" }];
 };
 
 export default function FielsOfCallScreen() {

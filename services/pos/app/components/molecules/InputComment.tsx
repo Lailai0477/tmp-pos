@@ -1,4 +1,4 @@
-import type { OrderEntity, WithId } from "@cafeore/common";
+import type { OrderEntity, WithId } from "@tmp/common";
 import { useState } from "react";
 import { Input } from "../ui/input";
 

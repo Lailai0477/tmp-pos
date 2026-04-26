@@ -1,3 +1,4 @@
+import { parseWithZod } from "@conform-to/zod";
 import {
   OrderEntity,
   cashierRepository,
@@ -5,18 +6,17 @@ import {
   orderSchema,
   stringToJSONSchema,
   useItemMaster,
-} from "@cafeore/common";
-import { parseWithZod } from "@conform-to/zod";
+} from "@tmp/common";
 import { useCallback, useMemo } from "react";
 import type { ClientActionFunction, MetaFunction } from "react-router";
 import { z } from "zod";
 import { useAuth } from "~/components/functional/AuthProvider";
 import { useFlaggedSubmit } from "~/components/functional/useFlaggedSubmit";
-import { CashierV2 } from "~/components/pages/CashierV2";
+import { CashierTouch } from "~/components/pages/CashierTouch";
 import { useOrdersWSContext } from "./context/OrdersWSContext";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "レジ / 珈琲・俺POS" }];
+  return [{ title: "レジ / POS" }];
 };
 
 // コンポーネントではデータの取得と更新のみを行う
@@ -45,7 +45,7 @@ export default function Cashier() {
   );
 
   return (
-    <CashierV2
+    <CashierTouch
       items={items}
       orders={orders}
       wsStatus={status}

@@ -1,4 +1,4 @@
-import type { ItemEntity, ItemType } from "@cafeore/common";
+import type { ItemEntity, ItemType } from "@tmp/common";
 import { useMemo, useState } from "react";
 
 import { Button } from "~/components/ui/button";

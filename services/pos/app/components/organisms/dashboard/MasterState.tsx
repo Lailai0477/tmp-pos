@@ -1,4 +1,4 @@
-import { useMasterState } from "@cafeore/common";
+import { useMasterState } from "@tmp/common";
 import {
   Table,
   TableBody,

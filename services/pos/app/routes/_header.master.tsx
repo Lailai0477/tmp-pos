@@ -1,3 +1,4 @@
+import { parseWithZod } from "@conform-to/zod";
 import {
   MasterStateEntity,
   type OrderEntity,
@@ -6,8 +7,7 @@ import {
   orderRepository,
   orderStatTypes,
   updateMasterStatus,
-} from "@cafeore/common";
-import { parseWithZod } from "@conform-to/zod";
+} from "@tmp/common";
 import { useCallback } from "react";
 import {
   type ClientActionFunction,
@@ -23,7 +23,7 @@ import { cn } from "~/lib/utils";
 import { useOrdersWSContext } from "./context/OrdersWSContext";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "マスター / 珈琲・俺POS" }];
+  return [{ title: "マスター / POS" }];
 };
 
 export default function FielsOfMaster() {

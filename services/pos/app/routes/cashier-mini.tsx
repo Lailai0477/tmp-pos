@@ -2,17 +2,17 @@ import {
   cashierStateConverter,
   documentSub,
   orderConverter,
-} from "@cafeore/common";
+} from "@tmp/common";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { MetaFunction } from "react-router";
 import useSWRSubscription from "swr/subscription";
-import logoSVG from "~/assets/cafeore.svg";
-import logoMotion from "~/assets/cafeore_logo_motion.webm";
+import logoSVG from "~/assets/tmp.svg";
+import logoMotion from "~/assets/tmp_logo_motion.webm";
 import { useOrderStat } from "~/components/functional/useOrderStat";
 import { cn } from "~/lib/utils";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "珈琲・俺 1号店" }];
+  return [{ title: "レジ客用画面" }];
 };
 
 export default function CasherMini() {
